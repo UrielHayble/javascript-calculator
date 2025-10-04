@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+     
+}
+
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 290px;
+    background-color: hsla(0, 0%, 0%, 0.879);
+
+    border-radius: 10px;
+    
+}
+
+#display{
+    font-size: 3rem;
+    background-color: hsla(0, 4%, 42%, 0.326);
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+#keys{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 4rem;
+    width: 4rem;
+    color: white;
+    background-color: hsla(0, 4%, 42%, 0.326);
+}
+
+button:hover{
+    background-color: hsla(0, 7%, 41%, 0.146);
+}
+button:active{
+    background-color: hsla(0, 7%, 41%, 0);
+}
+
+.vertOperator{
+    background-color: rgb(255, 132, 0);
+}
+.vertOperator:hover{
+    background-color: rgb(217, 110, 22);
+}
+.vertOperator:active{
+    background-color: rgb(250, 111, 25);
+}
+
+.horiOperator{
+    background-color: hsla(0, 36%, 95%, 0.326);
+}
+.horiOperator:hover{
+    background-color: hsla(0, 36%, 95%, 0.451);
+}
+.horiOperator:active{
+    background-color: hsla(0, 36%, 95%, 0.728);
+}
